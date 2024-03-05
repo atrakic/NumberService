@@ -1,5 +1,5 @@
-$location = 'australiaeast'
-$loc = 'aue'
+$location = 'westeurope'
+$loc = 'we'
 $rg = 'numberservice-rg'
 $tags = 'project=NumberService', 'repo=DanielLarsenNZ/NumberService'
 $insights = 'numberservice-insights'

@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param (
     # TODO: Add more regions here
-    [Parameter(Mandatory = $true)] [ValidateSet('australiaeast', 'australiasoutheast')] $FunctionLocation
+    [Parameter(Mandatory = $true)] [ValidateSet('westeurope')] $FunctionLocation
 )
 
 $ErrorActionPreference = 'Stop'
@@ -10,8 +10,7 @@ $ErrorActionPreference = 'Stop'
 
 # TODO: Add more regions here
 $loc = switch ($FunctionLocation) {
-    'australiaeast' { 'aue' }
-    'australiasoutheast' { 'ase' }
+    'westeurope' { 'we' }
     default { throw "$FunctionLocation is not supported" }
 }
 
